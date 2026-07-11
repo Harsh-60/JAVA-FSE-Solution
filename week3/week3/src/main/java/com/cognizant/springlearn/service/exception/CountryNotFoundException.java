@@ -1,0 +1,16 @@
+// Week 3 / 2. spring-rest-handson / "REST - Get country based on country code" (exception support class)
+package com.cognizant.springlearn.service.exception;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(value = HttpStatus.NOT_FOUND, reason = "Country not found")
+public class CountryNotFoundException extends Exception {
+
+    private static final long serialVersionUID = 1L;
+
+    public CountryNotFoundException(String message) {
+        super(message);
+    }
+
+}
