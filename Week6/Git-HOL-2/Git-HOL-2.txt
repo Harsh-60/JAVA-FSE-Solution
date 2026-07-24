@@ -1,0 +1,15 @@
+Git Hands-on Lab 2
+
+Objectives
+- Learn .gitignore.
+- Ignore unwanted files and folders.
+
+Tasks
+- Create .gitignore
+- Ignore *.log files
+- Ignore log/ folder
+- Verify using git status
+
+Example .gitignore
+*.log
+log/

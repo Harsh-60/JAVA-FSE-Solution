@@ -1,0 +1,20 @@
+Git Hands-on Lab 3
+
+Objectives
+- Create branches.
+- Merge branches.
+- View differences.
+
+Commands
+git branch GitNewBranch
+git branch -a
+git checkout GitNewBranch
+git add .
+git commit -m "Changes in branch"
+git status
+git checkout master
+git diff master GitNewBranch
+git mergetool
+git merge GitNewBranch
+git log --oneline --graph --decorate
+git branch -d GitNewBranch

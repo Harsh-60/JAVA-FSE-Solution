@@ -1,0 +1,13 @@
+Git Hands-on Lab 5
+
+Objectives
+- Synchronize local and remote repositories.
+
+Commands
+git status
+git branch
+git pull origin master
+git push origin master
+
+Verify
+- Check remote repository for uploaded commits.

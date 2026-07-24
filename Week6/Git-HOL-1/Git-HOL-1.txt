@@ -1,0 +1,24 @@
+Git Hands-on Lab 1
+
+Objectives
+- Configure Git username and email.
+- Configure Notepad++ as the default editor.
+- Initialize a Git repository.
+- Create and track files.
+- Push and pull changes from a remote repository.
+
+Commands Practiced
+git --version
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+git config --global --edit
+git init
+ls -la
+echo "Welcome to Git" > welcome.txt
+ls
+cat welcome.txt
+git status
+git add welcome.txt
+git commit
+git pull origin master
+git push origin master

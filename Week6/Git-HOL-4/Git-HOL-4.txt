@@ -1,0 +1,23 @@
+Git Hands-on Lab 4
+
+Objectives
+- Create merge conflicts.
+- Resolve conflicts.
+- Commit resolved changes.
+
+Commands
+git checkout -b GitWork
+git status
+git add hello.xml
+git commit -m "Branch changes"
+git checkout master
+git add hello.xml
+git commit -m "Master changes"
+git log --oneline --graph --decorate --all
+git diff
+git mergetool
+git merge GitWork
+git add .
+git commit -m "Resolved merge conflict"
+git branch
+git branch -d GitWork
